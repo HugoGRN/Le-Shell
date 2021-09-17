@@ -74,3 +74,18 @@ echo $ISAY
 
 -----------------------------
 
+# LOOPS
+
+for N in ${NUMBERS[@]}; do
+	
+    if [ $N = 237 ]; then
+    break;
+    elif [ $(($N % 2)) = 0 ]; then
+    echo $N
+    fi
+done
+
+-----------------------------
+
+# ARRAY COMPARAISON
+
